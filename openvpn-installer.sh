@@ -1,10 +1,11 @@
 #! /bin/sh
 
-# This script is written for Virtus Linux 2.0 Server , this will build and configure the OpenVPN server
+# This script is written for uVirtus Linux 2.0 Server , this will build and configure the OpenVPN server
 
 # Installing needed packages
 #Check if OpenVPN is installed if not install it
 #Write client crt , key + ready to use config file
+# Please make sure toe change the interface name  - venet0:0 - at the line 63 to your internet network interface
 
 pwdv=`pwd`
 
